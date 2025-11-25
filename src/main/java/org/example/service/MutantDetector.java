@@ -60,7 +60,7 @@ public class MutantDetector {
                     contSecuencia++;
                 }
 
-                if (contSecuencia >= 2) return true; // EARLY TERMINATION
+                if (contSecuencia > 1) return true; // EARLY TERMINATION
             }
         }
         return false;
