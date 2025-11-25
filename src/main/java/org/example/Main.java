@@ -15,7 +15,7 @@ public class Main {
         MutantDetector detector = new MutantDetector();
 
         String[] dna = {
-                "ATGCGA",
+                "AAGGGA",
                 "CCGTGC",
                 "TTATGT",
                 "AGAAGG",

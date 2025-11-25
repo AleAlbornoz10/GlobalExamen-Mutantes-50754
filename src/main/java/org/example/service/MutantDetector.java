@@ -40,6 +40,7 @@ public class MutantDetector {
                 // Horizontal
                 if (col <= n - SEQUENCE_LENGTH && checkHorizontal(matrix, fila, col)) {
                     contSecuencia++;
+                    col += SEQUENCE_LENGTH - 1;
                 }
 
                 // Vertical
