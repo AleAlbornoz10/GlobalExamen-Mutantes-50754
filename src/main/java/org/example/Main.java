@@ -19,7 +19,7 @@ public class Main {
                 "CCGTGC",
                 "TTATGT",
                 "AGAAGG",
-                "CCCTTA",
+                "CCCCTA",
                 "TCACTG"
         };
 

@@ -37,23 +37,23 @@ public class MutantDetector {
         for (int fila = 0; fila < n; fila++) {
             for (int col = 0; col < n; col++) {
 
-                // Horizontal →
+                // Horizontal
                 if (col <= n - SEQUENCE_LENGTH && checkHorizontal(matrix, fila, col)) {
                     contSecuencia++;
                 }
 
-                // Vertical ↓
+                // Vertical
                 if (fila <= n - SEQUENCE_LENGTH && checkVertical(matrix, fila, col)) {
                     contSecuencia++;
                 }
 
-                // Diagonal ↘
+                // Diagonal
                 if (fila <= n - SEQUENCE_LENGTH && col <= n - SEQUENCE_LENGTH
                         && checkDiagonalDescending(matrix, fila, col)) {
                     contSecuencia++;
                 }
 
-                // Diagonal ↗
+                // Diagonal
                 if (fila >= SEQUENCE_LENGTH - 1 && col <= n - SEQUENCE_LENGTH
                         && checkDiagonalAscending(matrix, fila, col)) {
                     contSecuencia++;
@@ -66,7 +66,7 @@ public class MutantDetector {
     }
 
 
-    // ========= MÉTODOS DE APOYO =========
+
 
     private boolean checkHorizontal(char[][] matrix, int fila, int col) {
         char base = matrix[fila][col];
