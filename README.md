@@ -127,7 +127,7 @@ La aplicación corre en:
 
 Cuando el servidor está ejecutando, accedé a Swagger:
 
-👉 http://localhost:8080/swagger-ui.html
+👉 https://globalexamen-mutantes-50754.onrender.com/swagger-ui/index.html
 
 1. POST /mutant – Detectar si un ADN es mutante
 
